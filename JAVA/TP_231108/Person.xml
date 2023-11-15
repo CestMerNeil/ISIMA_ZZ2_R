@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19.0.2" class="java.beans.XMLDecoder">
+ <object class="Person">
+  <void property="address">
+   <string>1 rue de la Paix</string>
+  </void>
+  <void property="age">
+   <int>42</int>
+  </void>
+  <void property="email">
+   <string>Doe.John@gmail.com</string>
+  </void>
+  <void property="firstName">
+   <string>John</string>
+  </void>
+  <void property="lastName">
+   <string>Doe</string>
+  </void>
+  <void property="phone">
+   <string>0102030405</string>
+  </void>
+ </object>
+ <object class="Person">
+  <void property="address">
+   <string>1 rue de la Paix</string>
+  </void>
+  <void property="age">
+   <int>42</int>
+  </void>
+  <void property="email">
+   <string>Doe.Jane@gmail.com</string>
+  </void>
+  <void property="firstName">
+   <string>Jane</string>
+  </void>
+  <void property="lastName">
+   <string>Doe</string>
+  </void>
+  <void property="phone">
+   <string>0102030405</string>
+  </void>
+ </object>
+</java>
