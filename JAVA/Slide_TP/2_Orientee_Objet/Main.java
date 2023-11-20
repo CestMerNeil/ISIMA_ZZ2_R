@@ -11,7 +11,7 @@ class Main {
         */
 
         Vehicule v[] = new Vehicule[3];
-        v[0] = new Voiture("Peugeot", "308SW", 2023);
+        v[0] = new Voiture("Peugeot", "508PSE", 2023);
         v[1] = new Vehicule("Porsche", "911", 2021);
         v[2] = new Voiture("Renault", "Clio", 2020);
 
