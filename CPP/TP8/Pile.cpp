@@ -17,9 +17,9 @@ int main(int, char **) {
         is.pop();
     }
 
-    // for(auto i : ds) {
-    //     std::cout << i << std::endl;
-    // }
+    for(auto i : ds) {
+        //std::cout << i << std::endl;
+    }
     
     return 0;
 }
