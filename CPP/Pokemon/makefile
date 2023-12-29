@@ -1,5 +1,5 @@
 # 定义源文件和目标文件
-SRC=$(wildcard Pokemon_Class/*.cpp) $(wildcard Dresseur_Class/*.cpp) $(wildcard Arene_Class/*.cpp) main.cpp
+SRC=$(wildcard Pokemon_Class/*.cpp) $(wildcard Dresseur_Class/*.cpp) $(wildcard Arene_Class/*.cpp) $(wildcard Exception/*.cpp) main.cpp
 OBJ=$(patsubst %.cpp, build/%.o, $(SRC))
 
 # 定义编译器和编译选项
