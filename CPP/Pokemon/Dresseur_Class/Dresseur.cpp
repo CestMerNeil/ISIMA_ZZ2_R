@@ -54,41 +54,7 @@ void Dresseur::entrainerPokemon(Pokemon &p)
  */
 bool Dresseur::battre(Dresseur &d)
 {
-    /*
-    std::cout << "Dresseur " << nom << " veut battre Dresseur " << d.nom << std::endl;
-    std::cout << "Tour de " << nom << std::endl;
-    std::cout << "Choisir un Pokemon: " << std::endl;
-    int choix_1 = -1;
-    for (int i = 0; i < nbPokemon; i++)
-    {
-        std::cout << i << ". " << equipe[i].getNom() << std::endl;
-    }
-    std::cin >> choix_1;
-    if (choix_1 < 0 || choix_1 >= nbPokemon - 1)
-    {
-        std::cout << "Choix invalide, please choose again." << std::endl;
-        std::cin >> choix_1;
-        //throw "Choix invalide, please choose again.";
-    }
-    std::cout << "Tour de " << d.nom << std::endl;
-    std::cout << "Choisir un Pokemon: " << std::endl;
-    int choix_2;
-    for (int i = 0; i < d.nbPokemon; i++)
-    {
-        std::cout << i << ". " << d.equipe[i].getNom() << std::endl;
-    }
-    std::cin >> choix_2;
-    if (choix_2 < 0 || choix_2 >= d.getNbPokemon() - 1)
-    {
-        std::cout << "Choix invalide, please choose again." << std::endl;
-        std::cin >> choix_2;
-        //throw "Choix invalide, please choose again.";
-    }
-
-    return equipe[choix_1].combattre(d.equipe[choix_2]);
-    */
-
-    std::cout << "Dresseur " << nom << " veut battre Dresseur " << d.nom << std::endl;
+    //std::cout << "Dresseur " << nom << " veut battre Dresseur " << d.nom << std::endl;
 
     auto validateAndChoosePokemon = [&](Dresseur &dr)
     {
